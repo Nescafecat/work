@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 #-*- coding:utf-8 -*-
 """this is a test python file"""
 from datetime import datetime
@@ -13,7 +14,7 @@ for i in range(5):
         print("This minute seems a little odd.")
     else:
         print("Not an odd minute.")
-    wait_time = random.randint(1, 5)
+    wait_time = random.randint(1, 3)
     time.sleep(wait_time)
 
 print(abs(-100))
